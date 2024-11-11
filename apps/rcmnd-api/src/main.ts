@@ -15,7 +15,7 @@ async function bootstrap() {
   const port = process.env.PORT || 3100;
   await app.listen(port);
   Logger.log(
-    `🚀 rcmnd api Application is running on: http://localhost:${port}/${globalPrefix}`
+    `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
   );
 }
 
